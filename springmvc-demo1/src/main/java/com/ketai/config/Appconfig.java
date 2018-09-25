@@ -16,6 +16,7 @@ import javax.sql.DataSource;
 @ComponentScan("com.ketai")
 @MapperScan("com.ketai.mapper")
 public class Appconfig {
+
     @Bean
     public DataSource mysql(){
         DriverManagerDataSource dm = new DriverManagerDataSource();

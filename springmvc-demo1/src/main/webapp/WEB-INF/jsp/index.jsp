@@ -6,12 +6,12 @@
     <title>Title</title>
     <script typet="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
     <script>
-        $(function(){
+        function testAjax(){
             $.post("${ctx}/user/test.json",{},
-                    function (data) {
-                        alert(data.b)
-                    });
-        });
+                function (data) {
+                    alert(data.b)
+                });
+        }
     </script>
 </head>
 <body>
@@ -29,6 +29,7 @@
             <td>${user.address}</td>
         </tr>
     </c:forEach>
+    <p><input type="button" value="测试Ajax" onclick="testAjax()"></p>
 </table>
 </body>
 </html>

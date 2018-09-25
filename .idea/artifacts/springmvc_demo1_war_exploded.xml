@@ -22,6 +22,12 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.8.RELEASE" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.49" />
+          <element id="archive" name="springmvc-demo2-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="springmvc-demo2" />
+          </element>
+          <element id="archive" name="springmvc-demo1-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="springmvc-demo1" />
+          </element>
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
         </element>
       </element>
