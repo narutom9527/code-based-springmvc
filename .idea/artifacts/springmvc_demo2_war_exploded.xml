@@ -1,30 +1,19 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="springmvc-demo2:war exploded">
     <output-path>$PROJECT_DIR$/springmvc-demo2/target/springmvc-demo2</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>springmvc-demo2</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="springmvc-demo2" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="springmvc-demo1-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="springmvc-demo1" />
-          </element>
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.10" />
-          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.3.2" />
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.6" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.8.RELEASE" />
-          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.49" />
           <element id="archive" name="springmvc-demo2-1.0-SNAPSHOT.jar">
             <element id="module-output" name="springmvc-demo2" />
           </element>

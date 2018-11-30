@@ -13,11 +13,13 @@ public class UserServiceImpl implements UserService {
     @Resource(name="userMapper")
     UserMapper userMapper;
 
+    @Override
     public List<User> getUserList(){
         return userMapper.queryUserAll();
     }
 
-    public Integer updatePwd(Integer id,String pwd){
+    @Override
+    public Integer updatePwd(Integer id, String pwd){
         return userMapper.updatePwd(id, pwd);
     }
 }
